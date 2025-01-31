@@ -2,7 +2,7 @@
 include 'header.php';
 ?>
 
-<!-- Hero / Banner sekcija s jednobojnom pozadinom -->
+<!-- Hero  -->
 <div class="py-5 text-center bg-light">
   <h1 class="fw-bold">Kontaktirajte nas</h1>
   <p class="lead mb-0">Uvijek smo tu za Vas</p>
@@ -43,7 +43,7 @@ include 'header.php';
   <!-- Forma za upit (bez border-a) -->
   <div class="row mb-5">
     <div class="col-md-8 mx-auto">
-      <!-- Maknut 'border' klasu -->
+
       <div class="p-4 bg-white rounded-3">
         <h3 class="fw-semibold mb-3">Pošaljite upit</h3>
         <form action="" method="POST" class="row g-3">
@@ -78,7 +78,7 @@ include 'header.php';
             ></textarea>
           </div>
           <div class="col-12 text-end">
-            <!-- Gumb s bojom #11212d -->
+
             <button
               type="submit"
               name="submit_contact"
@@ -92,7 +92,7 @@ include 'header.php';
 
         <?php
         if (isset($_POST['submit_contact'])) {
-          // Upis u bazu, slanje emaila itd. prema vašim potrebama
+          // Upis u bazu, slanje emaila 
           echo "<div class='alert alert-success mt-3'>Vaš upit je zaprimljen!</div>";
         }
         ?>
@@ -100,7 +100,7 @@ include 'header.php';
     </div>
   </div>
 
-  <!-- Opcionalno: Google mapa lokacije (bez sjena) -->
+  <!-- Google mapa  -->
   <div class="ratio ratio-16x9 mt-5 border rounded-3">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.6437466731353!2d15.97553657634776!3d45.81269787664214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6f8b7dddddd%3A0xf8d44173ffdba989!2sZagreb!5e0!3m2!1shr!2shr!4v1234567890"
