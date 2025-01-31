@@ -2,7 +2,7 @@
    modern.css
 */
 
-/* Postavi globalne boje (prema želji ili dogovoru) */
+/* Postavi  boje  */
 :root {
     --main-bg: #f9f9f9;
     --main-color: #11212d;
@@ -17,7 +17,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  /* Stil za .logo-text ako želiš ekstra akcent */
+  /* Stil za .logo-text */
   .logo-text {
     color: var(--main-color) !important;
     text-transform: uppercase;
