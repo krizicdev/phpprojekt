@@ -8,7 +8,7 @@ include 'header.php';
   <p class="lead mb-0">Upoznajte Designo</p>
 </div>
 
-<!-- Sekcija s tamnom pozadinom (#11212d) -->
+<!-- Sekcija  -->
 <div style="background-color: #11212d; color: #fff; border-radius: 10px;">
   <div class="container py-5">
     <div class="row align-items-center">
@@ -22,7 +22,7 @@ include 'header.php';
         </p>
       </div>
       <div class="col-md-6">
-        <!-- Primjer slike (zamijenite prema potrebi) -->
+        <!--  -->
         <img 
           src="https://newpathdigital.com/wp-content/uploads/2022/04/Hiring-an-Inside-Team.jpeg" 
           alt="Tim Designo" 
@@ -33,7 +33,7 @@ include 'header.php';
   </div>
 </div>
 
-<!-- Sekcija s dodatnim informacijama / vrijednostima tvrtke -->
+<!-- Sekcija s dodatnim informacijama  -->
 <div class="container my-5">
   <div class="row g-4 text-center">
     <!-- Kartica 1 -->
@@ -75,7 +75,7 @@ include 'header.php';
   </div>
 </div>
 
-<!-- Dodatna sekcija (opcionalno) -->
+<!-- Dodatna sekcija  -->
 <div class="container mb-5">
   <div class="row align-items-center">
     <div class="col-md-6">
